@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+.gh{
+    color: white;  
+}
+.code {
+    border: dashed 1px #634F36;
+    background: #fffff5;
+    font-family: "Courier New", Courier, monospace; 
+    padding: 7px;
+    font-size: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4421e2;
+    min-height: 100vh;
+    font-family: Roboto;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.container.main {
+    margin: 0 20px;
+}
+
+.photoname {
+    display: flex;
+    margin-top: 20px;
+}
+
+.name {
+    margin-left: 20px;
+}
+
+.footer {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    background-color: #605ef0;
+}
+
+.year2022 {
+    color: white;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-item a {
+    color: #998284;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #234d2a;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: #605ef0;
+}
+
+.nav-list {
+    transition: .3s;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* Сдвинуть вправо */
+    align-items: center;
+    padding: 0 20px;
+    line-height: 50px;
+
+}
+
+.nav-item a {
+    color: white;
+    margin: 0 30px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 50%;
+}
